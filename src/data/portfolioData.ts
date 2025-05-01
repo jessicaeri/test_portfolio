@@ -18,7 +18,7 @@ export const capstone = {
   title: "ClockedOut",
   description: "Clocked out is a personal leave tracking web application that goes beyond the basic accrual logs by allowing users to project future leave balances and simulate planned time-off periods. Designed for strategic planning, it helps users determine if they'll have enough leave hours for upcoming trips or commitments based on their start date and accrual settings.",
   techStack: ["Rails API", "React", "Tailwind", "PostgreSQL"],
-  image: "https://images.pexels.com/photos/48830/pexels-photo-48830.jpeg",
+  image: "src/assets/ChatGPT Image May 1, 2025, 07_41_00 PM.png",
   imageAlt: "Screenshot of Capstone Project",
   liveUrl: "",
   repoUrl: "https://github.com/jessicaeri/clockedout"
@@ -57,4 +57,4 @@ export const otherProjects = [
 
 export const resumeURL = "https://drive.google.com/your-resume.pdf";
 
-export const profileImage = "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg";
+export const profileImage = "src/assets/WhatsApp Image 2025-05-01 at 19.29.43.jpeg";
