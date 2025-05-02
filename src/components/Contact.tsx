@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
   return (
     <section id="contact" ref={sectionRef} className="py-20">
       <div className="container mx-auto px-4 md:px-6 text-center">
-        <motion.h2 
+        <motion.h2
           ref={headingRef}
           className="section-heading"
           initial={{ opacity: 0 }}
@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
         >
           Get In Touch
         </motion.h2>
-        
+
         <motion.div
           className="max-w-xl mx-auto"
           initial={{ opacity: 0, y: 50 }}
@@ -31,13 +31,13 @@ const Contact: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <p className="text-lg mb-8">
-            I'm currently looking for new opportunities to apply my skills and grow as a software engineer. 
+            I'm currently looking for new opportunities to apply my skills and grow as a software engineer.
             Whether you have a question or just want to say hello, feel free to reach out!
           </p>
-          
+
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-10">
-            <motion.a 
-              href="mailto:jessica.eri@example.com" 
+            <motion.a
+              href="mailto:jess.eri@live.com"
               className="btn btn-primary w-full md:w-auto"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -45,9 +45,9 @@ const Contact: React.FC = () => {
               <Mail size={20} className="mr-2" />
               Email Me
             </motion.a>
-            
-            <motion.a 
-              href={resumeURL} 
+
+            <motion.a
+              href={resumeURL}
               className="btn btn-outline w-full md:w-auto"
               target="_blank"
               rel="noopener noreferrer"
@@ -58,11 +58,11 @@ const Contact: React.FC = () => {
               Download Résumé
             </motion.a>
           </div>
-          
+
           <div className="flex justify-center space-x-6">
-            <motion.a 
-              href="https://github.com/jessicaeri" 
-              target="_blank" 
+            <motion.a
+              href="https://github.com/jessicaeri"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-sky-600 dark:text-gray-400 dark:hover:text-sky-400"
               whileHover={{ scale: 1.2, rotate: 10 }}
@@ -71,10 +71,10 @@ const Contact: React.FC = () => {
               <Github size={28} />
               <span className="sr-only">GitHub</span>
             </motion.a>
-            
-            <motion.a 
-              href="https://linkedin.com/in/jessicaeri" 
-              target="_blank" 
+
+            <motion.a
+              href="https://linkedin.com/in/jessicaeri"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-sky-600 dark:text-gray-400 dark:hover:text-sky-400"
               whileHover={{ scale: 1.2, rotate: -10 }}
